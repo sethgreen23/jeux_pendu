@@ -24,7 +24,7 @@ pendu init(char** tab,int len){
 }
 void copy_elements(pendu p,char** table, int len){
   if(len==1){
-    p->word=to_uppercase("Thoraciquee") ;
+    p->word=to_uppercase("Thorax") ;
     p->mistake_count=7;
     return;
   }
