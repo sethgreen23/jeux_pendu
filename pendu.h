@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 typedef struct _pendu* pendu;
 typedef struct _pendu S_pendu;
 
@@ -24,3 +25,7 @@ int* init_int_table();
 bool isLetter(char letter);
 void print_return_line();
 int letter_exist(char* word, int len, char letter);
+void show_word(pendu p);
+char* concatenate_words(char* word, char* concat);
+int count_not_letter(char* word);
+void free_pendu(pendu p);
